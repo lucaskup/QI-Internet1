@@ -11,15 +11,44 @@
 		<title>Título da Página</title>
 	</head>
 	<body>
-		<!--Tags que precisamos dominar na aula de hoje:
+		<div>
+			<form method="POST" action="https://formsubmissiontest.herokuapp.com/">
+				<label for="i1">Nome:</label>
+				<input type="text" name="nome" id="i1">
+				
+				<label for="i2">Idade:</label>
+				<input type="number" name="idade" id="i2">
+				
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+		<a href="https://www.google.com.br">Acessar o google</a>
+		<br>
+		Antes da Table
 		<table>
-            <caption>
-            <thead>
-                <tr>
+			<thead>
+				<tr>
+					<th>ID</th>
 					<th>Nome</th>
-            <tbody>
-                <tr>
-                    <td>
-		-->
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>101</td>
+					<td>José</td>
+				</tr>
+				<tr>
+					<td>102</td>
+					<td>Maria</td>
+				</tr>
+				<tr>
+					<td>103</td>
+					<td>
+						<a href="https://www.google.com.br">João</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		Depois da Table
 	</body>
 </html>
