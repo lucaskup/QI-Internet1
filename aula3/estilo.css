@@ -1,0 +1,50 @@
+/*
+Este seletor escolhe e muda a cor dos itens de lista
+*/
+li{
+	color:#e809d1;
+}
+/*
+Este seletor escolhe todos os elementos com a classe
+laranja
+*/
+.laranja{
+	color:orange;
+	/*Ajustes das bordas da classe*/
+	border-bottom: dashed 3px blue;
+	border-top: solid 3px green;
+}
+/*
+Este seletor escolhe todos os elementos com a classe
+azul
+*/
+
+.azul{
+	color:#277c2d;
+	/*Usando o margin left nós podemos
+	definir uma margem para os elementos*/
+	margin-left:150px;
+}
+/*
+Idem ao anterior
+*/
+.vermelho{
+	/*Esta propriedade serve para alinhar o texto*/
+	text-align:center;
+	color:red;
+	/*Aqui estamos sublinhando o texto*/
+	text-decoration:underline;
+	font-family: Arial;
+	font-size:20px;
+	font-weight:bold;
+}
+
+/*Altera a cor de fundo da página*/
+body{
+	background-color:gray;
+	/*background-image:url(matrix.jpg);
+	background-repeat-x:no-repeat;
+	background-repeat-y:no-repeat;*/
+	
+	
+}
