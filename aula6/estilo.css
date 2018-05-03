@@ -1,0 +1,12 @@
+td,th,table{
+	border: solid 1px black;
+	border-collapse:collapse;
+}
+td,th{
+	padding:5px;
+}
+
+tr:hover{
+	background-color:gray;
+	color:white;
+}
