@@ -1,0 +1,32 @@
+a{
+	text-decoration:none;
+	color:green;
+}
+a:visited{
+	color:gray;
+}
+a:hover{
+	color:white;
+	background-color:green;
+}
+
+li ul .itensinvisiveis{
+	display:none;
+}
+
+li:hover ul .itensinvisiveis{
+	display:block;
+}
+
+.tamanhomenor{
+	width:100px;
+}
+.tamanhonormal{
+	width:300px;
+}
+span,div{
+	border: 1px dashed black;
+}
+.menu{
+	background-color:blue;
+}
